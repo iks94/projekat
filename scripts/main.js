@@ -96,6 +96,8 @@ function check() {
   else incorrect();
 }
 
+let c = 0;
+
 function correct() {
   firstCard.removeEventListener("click",flip);
   secondCard.removeEventListener("click",flip);
@@ -104,6 +106,8 @@ function correct() {
   secondCard = null;
   clicked = false;
   action = false;
+  c = c + 1;
+  if(c == 8) {setTimeout(function(){window.alert("Bravo!!! :)")}, 1000)};
 }
 
 function incorrect() {
