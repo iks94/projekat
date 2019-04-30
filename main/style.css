@@ -61,3 +61,38 @@ body {
 span {
     font-size: 1vw;
 }
+
+
+
+
+.game {
+    padding-top: 2vh;
+    background-position: center;
+    border-radius: 20px;
+    width: 90vh;
+    height: 90vh;
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+
+.previous {
+    position: absolute;
+    height: 2vw;
+    width: 2vw;
+    top: 1vw;
+    left: 1vw;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: bold;
+    
+  }
+
+  .previous:hover {
+      text-decoration: none;
+  }
